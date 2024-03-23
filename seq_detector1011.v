@@ -47,11 +47,11 @@ module seq_detector1011(
           if(inp)
             next_state = S4;
           else
-            next_state = S3;
+            next_state = S2;
         end
         S4: begin
           if(inp)
-            next_state = S4;
+            next_state = S1;
           else
             next_state = S2;
         end
